@@ -2,7 +2,14 @@ const fs = require("fs");
 const path = require("path");
 const sharp = require("sharp");
 
-const inputFolder = path.join(__dirname, "buwatches"); // Asl rasmlar
+const inputFolder = path.join(
+  __dirname,
+  // "deepal"
+  // "jetour"
+  // "lipmotors"
+  // "nevo"
+  "longines"
+); // Asl rasmlar
 const outputFolder = path.join(__dirname, "webp"); // WebP rasmlar
 
 // Agar `webp` papkasi mavjud bo'lmasa, yaratamiz
